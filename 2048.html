@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 Game - Cubic Rouch</title>
+  <link href="css/2048.css" rel="stylesheet">
+  <meta name="HandheldFriendly" content="True">
+  <link rel="icon" type="image/x-icon" href="/images/logo1.png">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <header>
+		<a class="logo" href="#">
+              <img src="images/logo1.png" alt="repl logo" />
+		</a>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#">Home</a></li>
+			<li><a class="nav-link" href="games.html">Games</a></li>
+			<li><a class="nav-link" href="contact.html">Contact</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+  <br>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Add up the numbers to get to the <strong>2048 tile!</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="yoink">
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+        </div>
+        <div class="yoink">
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+        </div>
+        <div class="yoink">
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+        </div>
+        <div class="yoink">
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+          <div class="yeet"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys or WASD keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <h3 style="text-align: center;"> Made by <a href="index.html" >Cubic Rouch</a></h3>
+  </div>
+
+  <script src="script/bind.js"></script>
+  <script src="script/clist.js"></script>
+  <script src="script/anim.js"></script>
+  <script src="script/kbmanager.js"></script>
+  <script src="script/html.js"></script>
+  <script src="script/grid.js"></script>
+  <script src="script/tile.js"></script>
+  <script src="script/smanager.js"></script>
+  <script src="script/gmanager.js"></script>
+  <script src="script/app.js"></script>
+</body>
+</html>

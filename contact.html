@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact - Cubic Rouch</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo1.png">
+    <link href="css/contact.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    
+    <header>
+      <a class="logo" href="index.html">
+              <img src="images/logo1.png" alt="logo" />
+		</a>
+    <nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link" href="index.html">Home</a></li>
+			<li><a class="nav-link" href="games.html">Games</a></li>
+			<li><a class="nav-link active" href="contact.html">Contact</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+    </header>
+
+    <div class="contact">
+  <form action="https://formspree.io/f/xvolrebk" method="POST" id="my-form">
+  <section class="options">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name"  required placeholder="Your name">
+    <label for="email">Email ID</label>
+    <input type="text" id="email" placeholder="Enter your email." required>
+
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="china">China</option>
+      <option value="russia">Russia</option>
+      <option value="france">France</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+    
+  </section>
+  <input type="submit" value="Submit">
+  </form>
+  <br>
+
+  <div id="status" class="status">
+
+  </div>
+  <script src="js/contact.js"></script>
+  </body>
+</html>
