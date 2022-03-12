@@ -6,7 +6,8 @@ Thought why can't I made a portfolio for myself :)
 
 ---
 The website is up and running! <br>
-Watch it here: [Cubic's Couch](https://cubicial.netlify.app)
+Watch it here: [Cubic's Couch](https://cubicial.netlify.app) <br> <br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a6fcd17-1b43-47d9-98b9-b542094c03e1/deploy-status)](https://app.netlify.com/sites/cubicial/deploys)
 ## Releases
 
 Release 1.1:
