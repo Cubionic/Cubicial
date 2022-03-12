@@ -5,7 +5,8 @@
 Thought why can't I made a portfolio for myself :)
 
 ---
-I am soon going to host it on Netlify. When its online, I will keep you guys updated :)
+The website is up and running! <br>
+Watch it here: [Cubic's Couch](https://cubicial.netlify.app)
 ## Releases
 
 Release 1.1:
